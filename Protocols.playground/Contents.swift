@@ -23,8 +23,10 @@ class Person {
 }
 
 let jim = Person(name: "Jim", height: 64.0, favoriteFood: "Pasta")
+let bill = Person(name: "Bill", height: 61.0, favoriteFood: "Apples")
 
 print(jim.description)
+print(bill.description)
 //Name: Jim
 //Height: 64.0
 //Favorite Food: Pasta
